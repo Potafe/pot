@@ -1,0 +1,1 @@
+// Declaration of commit class and functions
