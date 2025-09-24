@@ -1,6 +1,6 @@
 CXX = g++
-CXXFLAGS = -std=c++17 -Wall
-SRC = src/main.cpp
+CXXFLAGS = -std=c++17 -Wall -Iinclude
+SRC = main.cpp src/commands/init.cpp
 OUT = pot
 
 all:

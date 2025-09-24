@@ -1,5 +1,9 @@
 #include <iostream>
 #include <string>
+
+// commands
+#include "include/commands/init.h"
+
 using namespace std;
 
 void print_help() {
@@ -22,8 +26,7 @@ int main(int argc, char* argv[]) {
     string command = argv[1];
 
     if (command == "init") {
-        // TODO: Implement repository initialization
-        cout << "Initializing new pot repository...\n";
+        pot::init_repo();
     } else if (command == "add") {
         // TODO: Implement add functionality
         cout << "Adding file(s) to staging area...\n";
